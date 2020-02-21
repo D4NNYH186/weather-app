@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+body{
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Odibee Sans', cursive;
+    background-image: url('weather.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    
+}
+
+h2{
+   font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.backgroundColor{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
