@@ -1,15 +1,18 @@
-<h1>Current Weather Data</h1>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecasts</title>
+    <h1>Forecasts</h1>
 <ul>
     {{#each data}}
     <li>{{@key}} : {{this}}</li>
     {{/each}}
-
-    <img src="http://openweathermap.org/img/wn/{{icon}}@2x.png" alt="Weather">
 </ul>
 
 {{!-- <div class= "backgroundColor"> --}}
-<form action='/' method='POST'>
+<form action='/forecasts' method='POST'>
     <label for='location'>location:</label>
     <input id='location' type='text' name='location'>
     <input id='countryCode' type='text' name='countryCode'>
